@@ -8,7 +8,7 @@ Desenvolva uma aplicação que tenha:
 
 - layout responsivo (não precisa ser mega-elaborado, apenas estar bem estruturado).
 
-Também gostaríamos de ver você usando algumas coisinhas bacanas como:
+PLUS: Também gostaríamos de ver você usando algumas coisinhas bacanas como:
 
 - Algum pré-processador CSS
 - Algum task-runner (Grunt ou Gulp)
