@@ -242,10 +242,6 @@ a {
   color: #216694;
 }
 
-a:hover {
-  text-decoration: underline;
-}
-
 .button {
   padding: 10px;
   display: block;
@@ -257,14 +253,15 @@ a:hover {
   background: #174768;
   border: none;
   -webkit-transition: 0.4s;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
+  text-decoration: none;
 }
 
 .button:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
-  background: #0d293b;
-  text-decoration: none;
+  background: #10334a;
 }
 
 .container {
@@ -315,12 +312,6 @@ a:hover {
 .repo-item > .button {
   width: 60px;
   border-radius: 6px;
-}
-
-.repo-item > .button:hover {
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  background: #0d293b;
 }
 
 .search-form {
