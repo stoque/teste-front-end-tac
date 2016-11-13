@@ -23,7 +23,9 @@ class SearchUser extends Component {
     return (
       <div className="container">
         <form onSubmit={this.handleSubmit} className="search-form">
-          <input className="input" type="text" ref="username" placeholder="Digite o usuário + Enter" />
+          <h1 className="title">GitHub User Search</h1>
+          <input className="input" type="text" ref="username" placeholder="Enter username" />
+          <button className="button">Search</button>
         </form>
       </div>
     )

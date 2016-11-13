@@ -28,7 +28,8 @@ gulp.task('browser-sync', function() {
 			}
 		},
 		server: {
-			 baseDir: './public'
+			 baseDir: './public',
+			 open: false
 		}
 	})
 });

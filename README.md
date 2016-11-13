@@ -14,6 +14,8 @@ $ npm install -g gulp
 # Instale as dependências
 $ npm install
 
-# Build
+# Build e serve
 $ gulp
+
+# Acesse o ambiente local através de http://localhost:3000
 ```

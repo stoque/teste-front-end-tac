@@ -21569,7 +21569,17 @@
 	        _react2.default.createElement(
 	          'form',
 	          { onSubmit: this.handleSubmit, className: 'search-form' },
-	          _react2.default.createElement('input', { className: 'input', type: 'text', ref: 'username', placeholder: 'Digite o usu\xE1rio + Enter' })
+	          _react2.default.createElement(
+	            'h1',
+	            { className: 'title' },
+	            'GitHub User Search'
+	          ),
+	          _react2.default.createElement('input', { className: 'input', type: 'text', ref: 'username', placeholder: 'Enter username' }),
+	          _react2.default.createElement(
+	            'button',
+	            { className: 'button' },
+	            'Search'
+	          )
 	        )
 	      );
 	    }
