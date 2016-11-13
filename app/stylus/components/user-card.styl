@@ -1,0 +1,65 @@
+.user-card
+	margin-bottom 20px
+	display flex
+	flex-direction column
+	align-items center
+	background #fff
+	border-radius 6px
+
+	
+	+desktop()
+		lost-column 2/5
+	
+	> .avatar
+		width 100px
+		height 100px
+		margin 20px 0 10px 0
+		border-radius 50%
+		
+	> .name
+		font-size rem(18px)	
+		color $primary-color
+		
+	> .user
+		font-size rem(14px)
+		color darken($gray-color,50%)
+		
+	> .button
+		width 100%
+		padding 10px
+		font-size rem(13px)
+		text-align center	
+		text-decoration none
+		color #fff
+		border-radius 0 0 6px 6px
+		background darken($primary-color,30%)
+		transition 0.4s
+		
+		&:hover
+			transition 0.4s
+			background darken($primary-color,60%)
+
+		
+.info-list
+	background $primary-color
+	width 100%	
+	margin 10px 0 0 0
+	padding 20px 20px
+	display flex
+	text-align center
+	justify-content space-between
+	
+	> .item
+		font-weight bold
+		
+		> .link
+			color #fff
+			
+			&:hover
+				text-decoration none
+
+			span
+				display block
+				color lighten($primary-color, 50%)
+				font-size rem(13px)
+				font-weight normal
