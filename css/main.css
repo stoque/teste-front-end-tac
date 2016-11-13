@@ -246,6 +246,27 @@ a:hover {
   text-decoration: underline;
 }
 
+.button {
+  padding: 10px;
+  display: block;
+  color: #fff;
+  font-size: 0.813rem;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 0 0 6px 6px;
+  background: #174768;
+  border: none;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.button:hover {
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  background: #0d293b;
+  text-decoration: none;
+}
+
 .container {
   max-width: 1000px;
   margin-left: auto;
@@ -271,19 +292,19 @@ a:hover {
   border-radius: 6px;
 }
 
-.repo-item .name {
+.repo-item > .name {
   display: block;
   font-size: 1rem;
 }
 
-.repo-item .description {
+.repo-item > .description {
   display: block;
   margin: 10px 0;
   font-size: 0.813rem;
   color: #141a1b;
 }
 
-.repo-item .stars {
+.repo-item > .stars {
   display: block;
   margin: 10px 0;
   font-size: 0.813rem;
@@ -291,18 +312,12 @@ a:hover {
   font-weight: bold;
 }
 
-.repo-item .button {
-  display: block;
+.repo-item > .button {
   width: 60px;
-  padding: 10px;
-  text-align: center;
-  color: #fff;
-  font-size: 0.813rem;
-  background: #216694;
-  text-decoration: none;
+  border-radius: 6px;
 }
 
-.repo-item .button:hover {
+.repo-item > .button:hover {
   -webkit-transition: 0.4s;
   transition: 0.4s;
   background: #0d293b;
@@ -313,14 +328,21 @@ a:hover {
   width: 100%;
 }
 
+.search-form > .title {
+  font-size: 1.5rem;
+  text-align: center;
+  color: #216694;
+}
+
 .search-form > .input {
+  margin-top: 20px;
   height: 50px;
   width: 100%;
   text-align: center;
   font-size: 1.125rem;
   color: #7e99a0;
   background: #d1dadd;
-  border-radius: 6px;
+  border-radius: 6px 6px 0 0;
   border: none;
   outline: none;
 }
@@ -329,6 +351,12 @@ a:hover {
   background: #c3cfd3;
   -webkit-transition: 0.4s;
   transition: 0.4s;
+}
+
+.search-form > .button {
+  width: 100%;
+  font-weight: bold;
+  font-size: 1rem;
 }
 
 .user-card {
@@ -367,21 +395,6 @@ a:hover {
 
 .user-card > .button {
   width: 100%;
-  padding: 10px;
-  font-size: 0.813rem;
-  text-align: center;
-  text-decoration: none;
-  color: #fff;
-  border-radius: 0 0 6px 6px;
-  background: #174768;
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-}
-
-.user-card > .button:hover {
-  -webkit-transition: 0.4s;
-  transition: 0.4s;
-  background: #0d293b;
 }
 
 .info-list {
