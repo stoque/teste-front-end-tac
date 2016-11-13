@@ -6,7 +6,7 @@
 # Clone o repositório
 $ git clone git@github.com:stoque/teste-front-end-tac.git
 
-# Instale o grulp globalmente
+# Instale o gulp globalmente
 $ npm install -g gulp
 
 # Instale as dependências
